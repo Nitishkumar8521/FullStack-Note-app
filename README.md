@@ -87,5 +87,74 @@ The frontend will start on: http://localhost:5173
 
 ### 📸 Screenshots
 
-#### Landing page
+- #### 🏠 Landing Page
+![App Screenshot](https://github.com/Nitishkumar8521/FullStack-Note-app/blob/main/note-app-frontend/src/Images/Landing%20page.jpg?raw=true)
 
+- #### 📝 Register Page
+![App Screenshot](https://github.com/Nitishkumar8521/FullStack-Note-app/blob/main/note-app-frontend/src/Images/Register%20page.jpg?raw=true)
+
+- #### 🔐 Login Page
+![App Screenshot](https://github.com/Nitishkumar8521/FullStack-Note-app/blob/main/note-app-frontend/src/Images/login.jpg?raw=true)
+
+- #### 📒 Notes Page (ToDos)
+![App Screenshot](https://github.com/Nitishkumar8521/FullStack-Note-app/blob/main/note-app-frontend/src/Images/Notes%20page.jpg?raw=true)
+
+### 🔁 API Routes (Backend)
+
+#### 🔐 User Routes
+| Method | Endpoint       | Description          |
+|--------|----------------|----------------------|
+| POST   | /register      | Register a new user |
+| POST   | /login         | Login and get token |
+
+#### 📝 ToDo Routes
+| Method | Endpoint         | Description         |
+|--------|------------------|---------------------|
+| GET    | /                | Get all todos (user)|
+| POST   | /create          | Create new todo     |
+| PATCH  | /update/:id      | Update a todo       |
+| DELETE | /delete-note/:id | Delete a todo       |
+
+### Follow these steps to set up and run the project:
+
+#### 1.Clone the repository:
+
+```bash
+git clone https://github.com/Nitishkumar8521/FullStack-Note-app.git
+cd FullStack-Note-app
+```
+
+#### 2.Install dependencies:
+
+```bash
+npm install
+```
+
+#### 3.Run the development server:
+
+```bash
+npm run dev
+```
+
+#### 4.Open in browser:
+
+```bash
+Visit http://localhost:5173/ to view the app
+```
+
+### Deployment
+
+You can access the live project here:
+
+[Live Demo](https://sparkly-melomakarona-9f7c32.netlify.app)
+
+
+## Future Enhancements
+
+- Add a backend for note editing
+
+- Improve accessibility features
+
+## Author
+
+Developed by **Nitish Kumar Singh.** Feel free to contribute or provide feedback!
