@@ -84,3 +84,8 @@ The frontend will start on: http://localhost:5173
 - ✅ Protected Routes using JWT
 
 - ✅ Persistent ToDos per user
+
+### 📸 Screenshots
+
+#### Landing page
+
